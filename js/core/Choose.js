@@ -45,8 +45,8 @@ function resetTimer(){
 	ticker = 0;
 }
 
-//원래 100이었음
-var TIMER_GAP = 150;
+//원래 100이었음 //한글버전은 150
+var TIMER_GAP = 200;
 function getDuration(message){
 	// Approx 6 words per second, or 160ms per word. Plus 800ms just in case.
 	return 800 + message.split(" ").length*160;
