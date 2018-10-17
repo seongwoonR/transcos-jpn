@@ -49,7 +49,7 @@ function resetTimer(){
 var TIMER_GAP = 100;
 function getDuration(message){
 	// Approx 6 words per second, or 160ms per word. Plus 800ms just in case.
-	return 850 + message.length*55;
+	return 850 + message.length*65;
 }
 
 var _queue = [];
